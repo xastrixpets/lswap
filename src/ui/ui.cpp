@@ -207,7 +207,7 @@ void ui::handler()
 						ImGui::PopFont();
 
 						ImGui::SetCursorPos(ImVec2(40, 47));
-						ImGui::TextColored(ImVec4(1.00f, 1.00f, 1.00f, 0.43f), "There you can start lswap working out.");
+						ImGui::TextColored(ImVec4(1.00f, 1.00f, 1.00f, 0.43f), "Running the program");
 
 						ImGui::SetCursorPos(ImVec2(40, 80));
 						if (ImGui::WinButton(g_service_enabled ? "Stop Service" : "Run Service", ImVec2(120, 25)))
